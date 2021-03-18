@@ -1,0 +1,88 @@
+.about {
+  max-width: 1280px;
+  // background-color: burlywood;
+  margin: 0 auto;
+
+  .about-top-section {
+    .about-header {
+      width: 247px;
+      letter-spacing: 8px;
+      font-style: thin;
+      padding-top: 110px;
+      font-size: 60px;
+    }
+
+    .about-quote {
+      width: 980px;
+      height: 96px;
+      font-size: 16px;
+      font-family: "Gill Sans";
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+  }
+
+  .about-bottom-section {
+    .about-client-quotes {
+      width: 385px;
+      height: 40px;
+      font-size: 40px;
+      padding-top: 107px;
+      margin-bottom: 100px;
+    }
+
+    .client {
+      max-width: 676px;
+      min-height: 150px;
+      display: flex;
+      margin-bottom: 38px;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+        background-color: coral;
+      }
+
+      img {
+        height: 100%;
+      }
+
+      .client-quote {
+        position: relative;
+        // background-color: cornflowerblue;
+        min-height: 50px;
+        width: 100%;
+        padding-left: 25px;
+        font-family: "Gill Sans";
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-style: italic;
+
+        p:last-of-type {
+          margin-bottom: 55px;
+        }
+
+        .client-name {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-size: 20px;
+          color: #79addc;
+          font-family: "Proxima Nova Alt";
+          letter-spacing: 1px;
+        }
+
+        .client-name2 {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-size: 20px;
+          font-style: thin;
+          color: #79addc;
+          font-family: "Proxima Nova Alt";
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

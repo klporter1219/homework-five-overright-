@@ -1,0 +1,198 @@
+nav {
+  width: 1280px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.borderBottom {
+  border-bottom: black solid 2px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #79addc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.about {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.about .about-top-section .about-header {
+  width: 247px;
+  letter-spacing: 8px;
+  font-style: thin;
+  padding-top: 110px;
+  font-size: 60px;
+}
+.about .about-top-section .about-quote {
+  width: 980px;
+  height: 96px;
+  font-size: 16px;
+  font-family: "Gill Sans";
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.about .about-bottom-section .about-client-quotes {
+  width: 385px;
+  height: 40px;
+  font-size: 40px;
+  padding-top: 107px;
+  margin-bottom: 100px;
+}
+.about .about-bottom-section .client {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+}
+.about .about-bottom-section .client .client-image {
+  width: 260px;
+  height: 150px;
+  background-color: coral;
+}
+.about .about-bottom-section .client img {
+  height: 100%;
+}
+.about .about-bottom-section .client .client-quote {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+  font-family: "Gill Sans";
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.about .about-bottom-section .client .client-quote p:last-of-type {
+  margin-bottom: 55px;
+}
+.about .about-bottom-section .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: #79addc;
+  font-family: "Proxima Nova Alt";
+  letter-spacing: 1px;
+}
+.about .about-bottom-section .client .client-quote .client-name2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  font-style: thin;
+  color: #79addc;
+  font-family: "Proxima Nova Alt";
+  letter-spacing: 1px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 179px;
+}
+
+.footerLogo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  margin-left: 56px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: "Gill Sans";
+  margin: 0;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.socials {
+  padding-right: 90px;
+}
